@@ -11,12 +11,12 @@ If you don't want to buy hardware, a Debian or Ubuntu VM (VirtualBox, or a Docke
 ## Requirements
 
 - A Raspberry Pi (this was built and tested on a Raspberry Pi 5)
-- A microSD card, 8 GB minimum, 16 GB or more recommended
+- A microSD card, 8 GB minimum, 16 GB or more recommended (I used 32 GB)
 - A separate machine with Ansible installed (this used Ubuntu on WSL2)
 
 ## 1. Check your local Ansible and Python setup
 
-Before targeting the Pi, confirm what's installed on the control machine:
+Before targeting the Pi, confirm what's installed on the control machine in VS Code:
 
 ```
 ansible --version
